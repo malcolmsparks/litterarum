@@ -19,25 +19,27 @@ understand it_.
 
 ## Plain-text wins
 
-For just writing good prose, you just can't beat plain-text. Many have
-tried, but plain-text keeps coming back. Years ago many business people
+For writing good prose you just can't beat plain-text. Many have
+tried, but plain-text just won't die. Years ago many business people
 were writing documents in word-processing products like Microsoft
 Word. But as soon as e-mail arrived, plain-text took over.
 
 That's why this documentation systems prefers _Markdown-formatted
 text_. 
 
-Markdown provides just the right level of features (text-decoration,
-nested section headings, links) without requiring a specialist program
-to create text in it. Anybody who has written a simple e-mail will be
-familiar with Markdown, or almost. This fact makes it easy to capture
-good content - you can even get your boss to write documentation - by
-distilling content out of e-mails (using a technique called
-'copy-and-paste').
+[Markdown](http://daringfireball.net/projects/markdown/) provides just
+the right level of features (text-decoration, nested section headings,
+hyperlinks) without requiring a specialist program to create it. Anyone
+who has written a simple e-mail will be familiar with Markdown, or
+almost. This fact makes it easy to capture good content - you can even
+get your boss to write documentation - by distilling content out of
+e-mails (using a technique called 'copy-and-paste').
 
-Even better, since Markdown has been popularized by GitHub,
-StackOverflow and others, many technical and non-technical people are
-already familiar with the format.
+Even better, since Markdown has been popularized by sites like GitHub
+and StackOverflow, many people both technical and non-technical are already
+familiar with the format.
+
+So it's Markdown, let's move on.
 
 ## HTML, PDF and ebook outputs
 
@@ -45,7 +47,7 @@ HTML seems to be the way things are heading for documentation but
 sometimes PDF is a good option for distributing documentation to others
 quickly, survives web server outages and can look great.
 
-We'll also support other formats such as ebooks.
+Litterarum will also support other formats such as ebooks.
 
 ## Document publication
 
@@ -113,21 +115,22 @@ completion.
 I like to define all system and application configuration in RDF. You
 can use other formats such as XML and JSON but RDF brings some formality
 to the procedings - on a very large system this can help. RDF also has
-strong support for self-documentation, which accords with our devdocs
-values.
+strong support for self-documentation, which accords with our litterarum
+values. But you can use JSON too.
 
 ## inkscape
 
 Inkscape can be used to create drawings for diagrams in your documentation, but I don't recommend it. It's a bit primitive as a diagram editor and there are better alternatives (such as diagram.ly below). However, inkscape is a requirement because it is used by dblatex (in headless mode) for converting between SVG and PDF.
 
-## diagram.ly
+## [diagram.ly](http://diagram.ly)
 
-This is a web based tool that helps create diagrams - save these as SVG.
+This is a web based tool that helps create diagrams - save these as [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics).
 
 ## dot
 
-Dot is a great tool for quickly generating diagrams, particularly those
-based on simple graphs (dependencies, data-flows, etc.)
+[Dot](http://en.wikipedia.org/wiki/DOT_language) is a great tool for
+quickly generating diagrams, particularly those based on simple graphs
+(dependencies, data-flows, etc.)
 
 ## GNU/Linux
 
@@ -153,5 +156,3 @@ Follow the conventions in this repository and all should be well.
 # Are we there yet?
 
 I have just got this README up. Over the next few weeks I'll be adding the Makefile to create a PDF from it.
-
-
